@@ -120,6 +120,10 @@ PUT Request - Hit to DB : False
 First GET Request - Hit to DB :  False 
 Second GET Request - Hit to DB : False 
 
+
+########## . @CachePut ##############
+
+
 //////////////////////////////////////////////
 @CachePut(value = "customer", key = "'firstName:' + #customer.firstName", condition = "#customer.firstName !=null")
 *****************************************************
